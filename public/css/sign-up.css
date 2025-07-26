@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(61, 60, 60);
+    backdrop-filter: blur(6px);
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(29, 28, 28); 
+}
+
+.login-container {
+    width: 100%;
+    max-width: 800px; /* increased from 800px */
+    padding: 40px;
+    background-color: #f0eded;
+    border-radius: 20px;
+    box-shadow: #303d85;
+    height: 680px;
+}
+
+
+h6 {margin-top: 10px;
+    text-align: center;
+    color:white;
+    
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:#f9f9ffd7;
+    font-weight: 600;
+    
+}
+input[type="email"], 
+input[type="number"], 
+input[type="text"], 
+input[type="password"] {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #f0eded;
+    border-radius: 15px; 
+    box-shadow: 0 2px 2px rgba(10, 12, 79, 0.2);
+
+    
+}
+.btn-sm-custom {
+    width: 35%;
+    padding: 10px;
+    background-color: #f0f0f1d7;
+    border: none;
+    border-radius: 15px;
+    color: #d75605d7;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 32%;
+    
+} 
+
+
+
+.btn-sm-custom:hover {
+    background-color: #d75605d7;
+    color:white;
+}
+
+.login{margin-left: 1px;
+
+}
+.create-account-link {
+    color: #303d85; 
+    text-decoration: none; 
+}
+.create-account-link:hover {
+    text-decoration: underline; 
+}
+
+.forgot-password-link {
+    color:  #303d85; 
+    text-decoration: none; 
+    text-align: right; 
+    display: block; 
+    margin-top: 40px; 
+}
+.forgot-password-link:hover {
+    text-decoration: underline; 
+}
+
+.logo {width:90px;
+       height: 90px;
+       display: block;
+       margin: 0 auto;
+       border-radius: 45px;
+
+    }
+
+.divider-text {
+       display: flex;
+       align-items: center;
+       text-align: center;
+       margin: 20px 0;
+       font-size: 14px;
+    }
+    
+.divider-text::before,
+.divider-text::after {
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid #e9eaedd7;
+        margin: 0 10px;
+    }
+    
+.text-uppercase {
+        text-transform: uppercase;
+    }
+    
+    
+.text{color:#f3f4f6d7;}
+
+#arrow{float: right;
+       padding: 5px 3px 0px 0px;}
+
+p{text-align: right;
+  margin:20px 10px 0px 20px;
+  color:white}
+
+ 
+  
+ 
+  a { text-decoration: none;
+     color:white; }
+  a:hover { text-decoration: underline; color: rgb(223, 221, 233); }

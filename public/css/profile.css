@@ -1,0 +1,20 @@
+ body {
+      background-color: #f35525; 
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .event-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .qr {
+      width: 100px;
+      height: 100px;
+    }
+    .btn-custom{background-color:#f35525;
+                margin-bottom:100px;}
+
+    .btn-custom:hover{background-color:black;
+                     color:#f35525;}
